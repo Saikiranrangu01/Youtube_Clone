@@ -42,9 +42,7 @@ nav{
 
 }
 @media (max-width:600px) {
-    .menu-icon{
-        display: none;
-    }
+
     .nav-right img{
         display: none;
     }
