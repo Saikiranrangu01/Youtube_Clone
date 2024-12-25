@@ -60,8 +60,3 @@
     border-bottom: 3px solid red;
 }
 
-@media (max-width:600px) {
-    .sidebar{
-        display: none;
-    }
-}
