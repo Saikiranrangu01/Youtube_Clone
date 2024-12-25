@@ -21,7 +21,7 @@ const Sidebar = ({sidebar, category, setCategory}) => {
   return (
     <div className={`sidebar ${sidebar?"": "small-sidebar"}`}>
         <div className="shortcut-links">
-            <div className={`side-links ${category===0?"active":""}`} onClick={()=>setCategory(0)}>
+            <div className={`side-links ${caFtegory===0?"active":""}`} onClick={()=>setCategory(0)}>
                 <img src={home} alt="" /><p>Home</p>
             </div>
 

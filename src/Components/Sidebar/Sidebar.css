@@ -48,6 +48,9 @@
 .small-sidebar p{
     display: none;
 }
+.small-sidebar img{
+    display: none;
+}
 .small-sidebar h3{
     display:none;
 }
@@ -60,3 +63,13 @@
     border-bottom: 3px solid red;
 }
 
+@media (max-width:800px){
+    .side-link{
+        display:none;
+    }
+
+    .side-links{
+        display:none;
+    }
+
+}
