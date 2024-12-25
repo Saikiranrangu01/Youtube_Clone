@@ -64,12 +64,7 @@
 }
 
 @media (max-width:800px){
-    .side-link{
+    .sidebar{
         display:none;
     }
-
-    .side-links{
-        display:none;
-    }
-
-}
+} 
